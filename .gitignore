@@ -1,0 +1,36 @@
+# --- Hệ thống (OS) ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Obsidian (Nếu sau này bạn dùng lại) ---
+.obsidian/
+.trash/
+
+# --- Python (Cực kỳ quan trọng cho AI Skill) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+
+# --- Bảo mật (QUAN TRỌNG NHẤT) ---
+# Không bao giờ đưa chìa khóa API lên GitHub
+.env
+.flaskenv
+secret_settings.py
+keys.json
+
+# --- Dữ liệu lớn ---
+# Không nên đưa các file dữ liệu quá nặng lên Git
+*.csv
+*.xlsx
+*.sqlite
+*.json
+!Level-1/**/*.json  # Ngoại trừ các file json nhỏ chứa cấu trúc bài học
