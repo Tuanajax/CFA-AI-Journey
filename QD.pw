@@ -1,5 +1,4 @@
-
-"""# CÔNG TY
+# CÔNG TY
 
 | <3110: 1/9> | Tên | Ngày |
 | :--- | :---: | :---: |
@@ -32,8 +31,3 @@
 | 2 | Tờ trình số 135/TTr-KT ngày 17/4/2026 của Phòng Kinh tế xã Vĩnh Lại. | | |
 | 3 | Căn cứ pháp lý bao gồm Luật Đấu thầu 2023 và Luật Xây dựng sửa đổi 2020. | | |
 | 4 | Quyết định phê duyệt thiết kế xây dựng triển khai sau thiết kế cơ sở số 604/QĐ-UBND ngày 15/04/2026. | | |
-"""
-
-file_name = "Ho_so_phap_ly_Vinh_Lai.md"
-with open(file_name, "w", encoding="utf-8") as f:
-    f.write(markdown_content)
